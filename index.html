@@ -3,36 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>أبناء عبدالستار الحميد</title>
+
+    <title>المغزى</title>
 
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             margin: 0;
             min-height: 100vh;
+            font-family: Tahoma, Arial, sans-serif;
+            background:
+                radial-gradient(circle at center, #2b2208 0%, #0b0b0b 45%, #000 100%);
+            color: #d4af37;
             display: flex;
             justify-content: center;
             align-items: center;
-            background: #111;
-            color: white;
-            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+
+        .container {
             text-align: center;
+            width: 90%;
+            max-width: 800px;
         }
 
-        .text {
-            font-size: 32px;
-            line-height: 2;
+        .title {
+            font-size: clamp(38px, 8vw, 75px);
             font-weight: bold;
-        }
-    </style>
-</head>
-
-<body>
-
-    <div class="text">
-        الاخوان شام وذهب ومحمد ونوف<br>
-        ابناء عبدالستار الحميد<br>
-        اذا ما درسو قرآن وطاعو امهم الوصهم لوص
-    </div>
-
-</body>
-</html>
+            letter-spacing: 3px;
+            margin-bottom: 45px;
